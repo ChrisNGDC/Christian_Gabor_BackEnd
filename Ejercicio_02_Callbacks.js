@@ -50,6 +50,7 @@ promedioConFiltro([1,2,3,4,5,6,7,8,9], filtroEspecial, promedioConSigno)
 promedioConFiltro([-1,-2,-3,-4,-5,-6,-7,-8,-9], filtroEspecial, promedioConSigno)
 promedioConFiltro([1,2,3,4,5,-6,-7,-8,-9], filtroEspecial, promedioConSigno)
 // 5) Realizar una función que se llame validarIngreso, que reciba una edad, y una callback.Esta función debe validar por medio de un operador ternario si puede intregar o no(la condición es que sea mayor a 18 años).El resultado del operador ternario de debe pasar como argumento a la ejecución de la callback. (Podes elegir que hacer con la función callback que le vas a pasar por agumento a la función validarIngreso)
+// No termino de entender la consigna del punto 5 :C
 function validarIngreso(edad, callback) {
     callback(edad > 18 ? true : false)
 }
